@@ -1,7 +1,7 @@
 @import url('https://fonts.cdnfonts.com/css/airplane-script');
 /* font-family: 'Airplane Script', sans-serif; */
-                                                
-                                                
+
+                                      
 *{
     margin: 0;
     padding: 0;
@@ -22,7 +22,7 @@
     }
     main{
         margin: 50px;
-        line-height: 35px;
+        line-height: 35px;        
     }
     h2{
         font-family: 'Airplane Script', sans-serif;
@@ -32,10 +32,34 @@
     }
     p{
         text-align: center;
-        line-height: 15px;
+        line-height: 20px;
         margin-bottom: 20px;
+    }
+    ul li{
+        font-size: 1.1rem;
     }
     span{
         float: right;
+ 
     }
+    footer{
+        line-height: 35px;
+        max-width: 1024px;
+        width: 80%;
+        margin: 0 auto;
+        padding: 20px;
+        line-height: 20px;
+        border: 2px solid #a77637;
+        border-radius: 5px;
+        margin-bottom: 20px;
+    }
+    .fa-brands{
+        font-size: 2.2rem;
+    }
+    footer p{
+        font-size: 1.3rem;
+        line-height: 20px;
+
+    }
+    
 }
