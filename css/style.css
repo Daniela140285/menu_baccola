@@ -16,7 +16,7 @@
         margin: 20px 0;
     }
     .img_banner{
-        width: 13rem;
+        width: 45%;
         border: 2px solid;
         border-radius: 50%;
     }
@@ -27,15 +27,17 @@
     h2{
         font-family: 'Airplane Script', sans-serif;
         font-size: 2rem;
-        margin: 20px 0;
-        text-align: center;                                                      
+        margin: 20px 20px;
+        text-align: center;    
+        border-bottom: 2px solid #1d1b15;  
+                                                       
     }
     p{
         text-align: center;
         line-height: 20px;
         margin-bottom: 20px;
     }
-    ul li{
+    li{
         font-size: 1.1rem;
     }
     span{
@@ -62,4 +64,22 @@
 
     }
     
+}
+@media screen and (min-width:768px){
+    ul{
+        width: 60%;
+        margin: 0 auto;
+    }
+}
+@media screen and (min-width:1024px){
+    .container {
+        width: 50%;
+    }
+    main{
+        display: flex;
+        flex-wrap: wrap;
+        width: 80%;
+        margin: 0 auto;
+        padding-bottom: 30px;
+    }
 }
